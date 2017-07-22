@@ -2,6 +2,7 @@ body {
 	background: url(../images/back.png);
 	position: relative;
 	box-sizing: border-box;
+	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .navbar {
@@ -9,8 +10,9 @@ body {
 }
 
 .breadcrumb {
-	background-color: white;
-    margin-top: 200px;
+	background-color: white !important;
+    margin-top: 53px;
+	margin-bottom: 0 !important;
 }
 
 #name {
@@ -35,7 +37,8 @@ body {
 	margin-top: 30px;
 }
 
-#box {
+#box,
+#box1 {
 	border:solid #ccc 1px;
 	background-color: #fff;
 	margin-top: 50px;
@@ -52,10 +55,10 @@ body {
 	flex-direction: column;
 }
 
-.page-header {
+.header {
 	border: none;
 	color: #4aaaa5;
-	font-weight: 700px;
+	font-weight: bold;
 	margin-top: 0;
 }
 
@@ -83,7 +86,6 @@ h5 {
 }
 
 .img-circle {
-	position: relative;
 	position: static;
 	width: 300px;
 	height: 200px;
@@ -140,9 +142,18 @@ h4 {
 }
 
 @keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+	0% {
+		background-color: red;
+	}
+	25% {
+		background-color: yellow;
+	}
+	50% {
+		background-color: blue;
+	}
+	100% {
+		background-color: green;
+	}
+}
 
 
