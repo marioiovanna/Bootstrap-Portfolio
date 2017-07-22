@@ -1,4 +1,4 @@
-# Responsive Portfolio
+# Bootstrap Portfolio
 
 First HTML project created with Bootstrap, adding responsive layout. Remake of old project Portfolio, recreating the same concept but applying framework.
 
