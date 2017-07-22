@@ -1,17 +1,16 @@
 body {
 	background: url(../images/back.png);
 	position: relative;
+	box-sizing: border-box;
 }
 
 .navbar {
-	position: fixed;
-	height: 90px;
 	border-bottom: solid 5px #ddd;
 }
 
-.dropdown {
-	float: right;
-	margin: 50px 100px;
+.breadcrumb {
+	background-color: white;
+    margin-top: 200px;
 }
 
 #name {
@@ -39,7 +38,7 @@ body {
 #box {
 	border:solid #ccc 1px;
 	background-color: #fff;
-	margin-top: 150px;
+	margin-top: 50px;
 	padding: 20px;
 	margin-bottom: 30px;
 }
@@ -113,7 +112,6 @@ h5 {
 }
 
 .panel-body {
-	float: left;
 	margin: 0;
 	padding: 15px 0;
 	display: inline-block;
@@ -147,22 +145,4 @@ h4 {
     50%  {background-color: blue;}
     100% {background-color: green;}
 
-
-@media screen and (max-width: 980px) {
-	
-}
-
-
-@media screen and (max-width: 720px) {
-
-}
-
-
-@media screen and (max-width: 640px) {
-	#button {
-		float: left;
-		margin: 0;
-		padding: 0;
-	}
-}
 

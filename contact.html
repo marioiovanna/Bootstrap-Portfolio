@@ -7,14 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	 <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap Porfolio</title>
@@ -24,27 +17,22 @@
 <body>
 
 <!-- NAV BAR -->
-	<nav class="navbar navbar-default navbar-fixed-top" id="nav-1">
-  		<div class="container">	
-  			<div class="navbar-header">		
-  				<a class="navbar-brand" id="name" href="index.html"><p>Mario Iovanna
-  	    	</p></a>
-  	    </div>
-
-<!-- BUTTONS -->
-
-<div class="dropdown" id="button">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">More About ME
-  <span class="caret"></span></button>
-			<ul class="dropdown-menu" id="dropmenu">
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+<nav class="navbar navbar-default navbar-fixed-top" id="nav-1">
+	<div class="container">
+		<div class="col-md-9">
+			<div class="navbar-header">
+				<a class="navbar-brand" id="name" href="index.html"><p>Mario Iovanna
+				</p></a>
+			</div>
 		</div>
- 		</div>
- 		<div class="nav-1"></div>
- 		</nav>
+		<ol class="breadcrumb">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ol>
+	</div>
+	</div>
+</nav>
 
 <!-- MAIN BOX -->
 	<div class="container">
@@ -53,8 +41,7 @@
 				<div class="page-header">
 					<h1>Contact</h1>
 				</div>
-		<div class="row">
-			<div class="col-md-12">
+
 				<div class="form-group">
      		<label for="usr">Name:</label>
      		<input type="text" class="form-control" id="usr" placeholder="Username" required="required">
@@ -66,23 +53,17 @@
        	<div class="form-group">
    			 <label for="exampleTextarea">Example textarea</label>
    			 <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Write your comments HERE ... " required="required"></textarea>
-   		<div class="row">
-   		<div class="col-md-3">
+  
    			<div>
    			<button type="button" class="btn btn-primary btn-lg active">SUBMIT</button>
    			</div>
    		</div>
    		</div>
-		</div>
-		</div>
+
+	<div class="col-md-1">
 	</div>
-	</div>
-
-
-	<div class="col-md-1"></div>
-
 <!-- CONTACT BOX -->
-	<div id="box" class="col-md-3">
+	<div id="box" class="col-md-4">
 		<div class="panel-id">
 			<div class="panel-head">
 				<h3 class="panel-title">Connect With Me</h3>
@@ -98,7 +79,7 @@
 				 <li><a href="#">
 				 	<img src="assets/images/link.png" class="img">
 				 	</a></li>
-			</div>
+				 </div>
 		  </div>
 	    </div>
 	  </div>
